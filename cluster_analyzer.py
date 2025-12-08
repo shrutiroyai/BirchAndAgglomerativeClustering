@@ -182,7 +182,7 @@ def analyze_clusters(df, cat_cols):
 
         ax.set_xlim(right=ax.get_xlim()[1] * 1.15) # Adjust x-limit to make space for bar labels
         plt.tight_layout()
-        filename = f'cluster_{cluster_id}_profile.png'
+        filename = f'plots/cluster_{cluster_id}_profile.png'
         plt.savefig(filename)
         plt.close()
         print(f"Exported profile chart to '{filename}'")

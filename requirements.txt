@@ -7,3 +7,5 @@ python-igraph
 leidenalg
 lightgbm
 shap
+kmodes
+gower
