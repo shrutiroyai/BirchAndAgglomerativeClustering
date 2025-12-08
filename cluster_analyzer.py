@@ -141,7 +141,7 @@ def analyze_clusters(df, cat_cols):
 
     if summary_parts:
         final_summary_df = pd.concat(summary_parts).fillna(0)
-        final_summary_df.round(2).to_csv('cluster_summary_comparison.csv')
+        final_summary_df.round(2).to_csv('output/cluster_summary_comparison.csv')
         print("Exported full summary data to 'cluster_summary_comparison.csv'")
 
     # --- Generate one profile chart per cluster ---
